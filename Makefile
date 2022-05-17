@@ -6,8 +6,8 @@ all:
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
-	@cp -p syssnd $(DESTDIR)$(PREFIX)/bin/start
-	@cp -p syssnd $(DESTDIR)$(PREFIX)/bin/lgoutshdn
+	@cp -p start $(DESTDIR)$(PREFIX)/bin/start
+	@cp -p lgoutshdn $(DESTDIR)$(PREFIX)/bin/lgoutshdn
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/start
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/lgoutshdn
 
